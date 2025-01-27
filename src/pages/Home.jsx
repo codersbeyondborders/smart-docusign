@@ -7,7 +7,7 @@ const Home = () => {
   const handleLogin = () => {
     // Implement the DocuSign authentication logic here
     // For now, redirect to a placeholder route after login
-    navigate('/document-insights'); // Redirect after login
+    window.location.href = `https://8f0c0tv675.execute-api.us-east-1.amazonaws.com/main/oauth/login`;
   };
 
   return (

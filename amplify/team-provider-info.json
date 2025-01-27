@@ -1,0 +1,29 @@
+{
+  "main": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-smartdocusign-main-ea0ec-authRole",
+      "UnauthRoleArn": "arn:aws:iam::571935043575:role/amplify-smartdocusign-main-ea0ec-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::571935043575:role/amplify-smartdocusign-main-ea0ec-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-smartdocusign-main-ea0ec-deployment",
+      "UnauthRoleName": "amplify-smartdocusign-main-ea0ec-unauthRole",
+      "StackName": "amplify-smartdocusign-main-ea0ec",
+      "StackId": "arn:aws:cloudformation:us-east-1:571935043575:stack/amplify-smartdocusign-main-ea0ec/ffbe9cc0-dc93-11ef-bc6c-1269fe6e6dc7",
+      "AmplifyAppId": "d2bbhwtw64olr1"
+    },
+    "categories": {
+      "function": {
+        "docusignAuth": {
+          "docusignClientId": "eb89b441-5317-4bac-9e73-72e61f911cb5",
+          "docusignClientSecret": "608228f2-77d1-4647-98d5-789a67967881",
+          "docusignRedirectUri": "https://main.d2bbhwtw64olr1.amplifyapp.com/oauth/callback",
+          "deploymentBucketName": "amplify-smartdocusign-main-ea0ec-deployment",
+          "s3Key": "amplify-builds/docusignAuth-69465643416c2f48354c-build.zip"
+        }
+      },
+      "api": {
+        "oauthapi": {}
+      }
+    }
+  }
+}

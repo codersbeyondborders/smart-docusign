@@ -1,0 +1,17 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "docusignClientId",
+      "environmentVariableName": "DOCUSIGN_CLIENT_ID"
+    },
+    {
+      "cloudFormationParameterName": "docusignClientSecret",
+      "environmentVariableName": "DOCUSIGN_CLIENT_SECRET"
+    },
+    {
+      "cloudFormationParameterName": "docusignRedirectUri",
+      "environmentVariableName": "DOCUSIGN_REDIRECT_URI"
+    }
+  ]
+}

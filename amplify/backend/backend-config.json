@@ -1,0 +1,67 @@
+{
+  "api": {
+    "oauthapi": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "docusignAuth"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "docusignAuth": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_docusignAuth_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "docusignAuth"
+        }
+      ]
+    },
+    "AMPLIFY_function_docusignAuth_docusignClientId": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "docusignAuth"
+        }
+      ]
+    },
+    "AMPLIFY_function_docusignAuth_docusignClientSecret": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "docusignAuth"
+        }
+      ]
+    },
+    "AMPLIFY_function_docusignAuth_docusignRedirectUri": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "docusignAuth"
+        }
+      ]
+    },
+    "AMPLIFY_function_docusignAuth_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "docusignAuth"
+        }
+      ]
+    }
+  }
+}

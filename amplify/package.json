@@ -1,3 +1,6 @@
 {
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "docusign-esign": "^8.0.1"
+  }
 }

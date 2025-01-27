@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/oauth/login": {
+      "name": "/oauth/login",
+      "lambdaFunction": "docusignAuth",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/oauth/callback": {
+      "name": "/oauth/callback",
+      "lambdaFunction": "docusignAuth",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
